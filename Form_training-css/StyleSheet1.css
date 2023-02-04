@@ -1,0 +1,73 @@
+﻿body {
+    max-width: 700px;
+    margin: 0 auto;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/384/374/non_2x/development-programmer-working-in-programming-website-a-software-and-coding-technology-free-photo.jpg);   
+   background-size:100% 100%;
+    color: #ffffff;
+    font-family:'Cocon modified';
+    min-width: 500px;
+    font-size: 16px;
+}
+h1,p{
+    text-align:center;
+    color:black;
+}
+h1{
+    font-size:40px;
+}
+p{
+    font-style:italic ;
+    font-weight:800;
+}
+input, textarea, select {
+    width: 100%;
+    /*display:block;*/
+    margin-bottom: 18px;
+    border-radius: 8px;
+    border:unset;
+}
+.inline {
+    width: unset;
+    
+}
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+fieldset {
+   
+    border:unset;
+    margin: 0 30px;
+}
+form {
+    background-color: rgba( 7, 16, 25,0.9 );
+    border-radius: 15px;
+    margin: 0 auto;
+    padding-bottom:2em;
+}
+span {
+    font-size: 12px;
+}
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: darkseagreen;
+    border-color: white;
+    min-width: 300px;
+    
+}
+    input[type="submit"]:hover{
+        background-color:cadetblue;
+    }
+    footer {
+        margin-top: 2rem;
+    }
+input[type="radio"]{
+    margin: 2px 2px 0;
+}
+hr{
+    opacity:0;
+}
