@@ -1,0 +1,70 @@
+﻿div{
+    background-color: burlywood;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 15px;
+  max-width:500px;
+ 
+}
+body {
+    background-image: url(https://media.istockphoto.com/id/466732980/photo/coffee-bean.jpg?s=612x612&w=0&k=20&c=YiXXsgPNUXxV07lfXDSDgMCz4cmR2L0wAD5jCCSKLQQ=);
+ 
+}
+h1{
+    margin-top:5px;
+}
+h1, h2 {
+    text-align: center;
+    font-family: Impact, serif;
+    margin-bottom: 5px;
+}
+.establish{
+    font-style: italic;
+    text-align: center;
+}
+hr{
+    background-color: brown;
+    border-color: brown;
+    width:70%;
+    height:3px;
+}
+.item p{
+    display:inline-block;
+    font-family:Bahnschrift;
+    margin-bottom:4px;
+    margin-top:4px;
+}
+.flavor {
+    /*
+    width: 86%;
+    text-align: left;
+    font-family: Bahnschrift;
+*/
+    width:92%;
+    padding-left:2px;
+}
+.price {
+    /*
+    position:absolute;
+    text-align: right;
+    font-family:Bahnschrift;
+    width: 7%;*/
+   
+}
+footer{
+    text-align:center;
+}
+a:visited{ 
+    color:black;
+}
+a:hover{
+    color:brown;
+}
+.address{
+    margin-bottom:5px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
