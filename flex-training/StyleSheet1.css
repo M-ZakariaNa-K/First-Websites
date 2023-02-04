@@ -1,0 +1,39 @@
+﻿*{
+    box-sizing:border-box;
+}
+body{
+    background-color:white;
+    margin:0;
+}
+header {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: rgb( 11, 11, 59 );
+    margin: 0;
+    border-bottom: solid rgb( 255, 191, 0 );
+    padding: 32px;
+    text-transform:uppercase;
+}
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    object-fit: cover;
+    /*align-items: center;*/
+    grid-row-gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+.gallery ::after{
+    content:"";
+    width: 1000px;
+}
+.gallery img {
+        width: 100%;
+        max-width: 350px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+}
