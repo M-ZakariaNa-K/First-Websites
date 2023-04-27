@@ -1,0 +1,206 @@
+﻿* {
+    font-family: 'Arial Rounded MT';
+    box-sizing: border-box;
+}
+table {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #E6E6E6;
+    text-transform:capitalize;
+    position:relative;
+    border-spacing:0px;
+}
+h1{
+    text-align:center;
+    text-transform:capitalize;
+    font-family:Cocon;
+    color:red;
+}
+h2{
+   text-align:center;
+    text-transform:capitalize;
+    font-family:Cocon;
+    color:white;  
+}
+table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-weight:bold;
+    font-family: sans-serif;
+}
+img {
+    width: 100px;
+    border:solid;
+    position: relative;
+    padding:10px;
+}
+td .image {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width:100px;
+    height:50px
+}
+.beautiful-text{
+    text-align:center;
+    font-size:60px;
+    color:red;
+    padding:20px;
+}
+thead {
+    background-color: #2E2E2E;
+    color: rgb(255, 255, 255);
+    font-family: 'Cocon modified';
+}
+thead td{
+    border:0;
+}
+tbody td{
+    padding:20px;
+    color:black;
+}
+@media (max-width:1000px){
+    table {
+        width: 70%;
+    }
+    img {
+        width: 50%;
+    }
+}
+@media (max-width:772px){
+    img {
+        width: 75%;
+    }
+}
+@media (max-width:640px){
+    img {
+        width: 120%;
+        position:relative;
+        transform:translate(-50%);
+        left:50%;
+        padding:0;
+    }
+}
+tr.hr td{
+ border-bottom-color:black;
+}
+//___________________________________
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .content {
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+  }
+  canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background:linear-gradient(9deg, black, transparent) center fixed;
+        background-image: url('your-image-url');
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+body{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background:linear-gradient(9deg, black, transparent) center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+/* second background */
+html, body {
+    height: 100%; /* make the body fill the height of the viewport */
+  }
+  
+  .animated-background {
+    position: fixed; /* position the div fixed to the viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* hide overflowing content */
+  }
+  
+  .particle {
+    position: absolute; /* position the particle absolute to the div */
+    border-radius: 50%;
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0);
+    animation: particle 4s ease-in-out infinite;
+  }
+  
+  .particle-1 {
+    background-color: #1abc9c;
+    width: 200px;
+    height: 200px;
+    top: -100px;
+    left: -100px;
+    animation-delay: 0s;
+  }
+  
+  .particle-2 {
+    background-color: #e74c3c;
+    width: 50px;
+    height: 50px;
+    top: -50px;
+    left: 50%;
+    animation-delay: 1s;
+  }
+  
+  .particle-3 {
+    background-color: #3498db;
+    width: 100px;
+    height: 100px;
+    top: 100%;
+    left: 30%;
+    animation-delay: 2s;
+  }
+  
+  .particle-4 {
+    background-color: #9b59b6;
+    width: 80px;
+    height: 80px;
+    top: 50%;
+    left: 90%;
+    animation-delay: 3s;
+  }
+  
+  .particle-5 {
+    background-color: #f39c12;
+    width: 150px;
+    height: 150px;
+    top: 150%;
+    left: -50%;
+    animation-delay: 4s;
+  }
+  
+  @keyframes particle {
+    0% {
+      opacity: 0;
+      transform: scale(0);
+    }
+    25% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0;
+      transform: scale(0);
+    }
+  }
+  
+  
